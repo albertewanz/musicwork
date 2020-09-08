@@ -159,6 +159,7 @@
   left: 942px;
   top: 1997px;
   float: left;
+  padding: 25px;
 }
 div.container {
   position: relative;
@@ -180,10 +181,15 @@ div.absolute {
   height: auto;
   float: right;
   transition: all 100ms ease-in-out;
-  border border-radius
+  padding: 20px;
+
 }
- 
 mark {
   color: blue;
+}
+hr {
+  height: 40px;
+  width: 50%;
+  color: black;
 }
 
