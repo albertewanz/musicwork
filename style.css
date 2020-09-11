@@ -182,8 +182,8 @@ div.absolute {
   float: right;
   transition: all 100ms ease-in-out;
   padding: 20px;
-
 }
+
 mark {
   color: blue;
 }
@@ -193,6 +193,16 @@ hr {
   color: black;
 }
 body {
-  background-color: crimson;
+  background-color: rgb(20, 163, 220);
+}
+.eventbookimg {
+  float: left;
+  padding: 40px;
+  width: 65%;
+  height: auto;
+}
+.darkdiv {
+  background-color: rgb(255, 227, 220);
+
 }
 
