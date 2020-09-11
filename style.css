@@ -201,8 +201,14 @@ body {
   width: 65%;
   height: auto;
 }
-.darkdiv {
-  background-color: rgb(255, 227, 220);
+div.blackblock {
+  position: relative;
+  background-color: dimgray;
+  height: 150vh;
+  width: auto;
+  padding-top: 100px;
 
 }
-
+h1 {
+  color: darkred;
+}
