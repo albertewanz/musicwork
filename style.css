@@ -212,3 +212,13 @@ div.blackblock {
 h1 {
   color: darkred;
 }
+.iceimg {
+  border-radius: 50%;
+  padding: 40px;
+  float: none;
+}
+.evaimg {
+  border-radius: 50%;
+  padding: 40%;
+  float: none;
+}
