@@ -240,3 +240,44 @@ h1 {
 h2 {
   text-shadow: 10%;
 }
+
+form-container {
+  margin: 20px;
+  padding: 15px;
+  background: #173459;
+  color: white;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3) 0 7px 21px 0 gba(0, 0, 0, 0.20);
+}
+.input-cnt {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-cnt > i{
+  min-width: 40px;
+  padding: 10px;
+  text-align: center;
+  background: lightgrey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%
+}
+.textarea-icon {
+  padding: 60px 10px;
+}
+.input-cnt > input[type="submit"]{
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 105%;
+  padding: 8px;
+  color: #0076ff;
+  background: white;
+  transition-duration: .5s;
+}
+.input-cnt > input[type="submit"]:hover {
+  color: white;
+  background: #0076ff;
+}
