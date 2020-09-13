@@ -201,6 +201,7 @@ hr {
 }
 body {
   background-color: rgb(183, 220, 20);
+  padding: 80px;
 }
 .eventbookimg {
   float: left;
@@ -217,9 +218,6 @@ div.blackblock {
   padding-top: 100px;
   color: #f8f9f9;
   top: 50px;
-}
-div.iceimg{
-  place-items: left;
 }
 h1 {
   color: darkred;
@@ -257,7 +255,7 @@ form-container {
   min-width: 40px;
   padding: 10px;
   text-align: center;
-  background: lightgrey;
+  background: red;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 100%
@@ -280,4 +278,7 @@ form-container {
 .input-cnt > input[type="submit"]:hover {
   color: white;
   background: #0076ff;
+}
+footer {
+  position: relative;
 }
