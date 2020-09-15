@@ -194,13 +194,16 @@ div.absolute {
 mark {
   color: blue;
 }
+p {
+  color: black;
+}
 hr {
   height: 40px;
   width: 50%;
   color: black;
 }
 body {
-  background-color: white;
+  background-color: white ;
 
 }
 .eventbookimg {
@@ -282,6 +285,4 @@ form-container {
   color: white;
   background: #0076ff;
 }
-footer {
-  position: relative;
-}
+
