@@ -19,7 +19,11 @@ form-container {
     width: 50%
   }
   .textarea-icon {
-    padding: 20px 10px;
+    padding: 10px;
+    width: auto;
+    height: 300px;
+    color: white;
+    background-color: #0076ff;
   }
   .input-cnt > input[type="submit"]{
     border: none;
@@ -36,4 +40,23 @@ form-container {
   .input-cnt > input[type="submit"]:hover {
     color: white;
     background: #0076ff;
+  }
+  button {
+    font-family: sans-serif;
+  }
+  #button {
+    background-color: blueviolet;
+    color: rgb(177, 152, 152);
+    border-radius: 25px;
+    width: 100px;
+  }
+  textarea {
+    width: 300px;
+    padding: 10px;
+    background-color; white;
+    outline: none;
+  }
+  textarea::placeholder {
+    width: 3070%;
+    height: 100vh;
   }
