@@ -13,7 +13,7 @@ form-container {
     min-width: 40px;
     padding: 10px;
     text-align: center;
-    background: red;
+    background: grey;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 50%
@@ -38,14 +38,14 @@ form-container {
     transition-duration: .5s;
   }
   .input-cnt > input[type="submit"]:hover {
-    color: white;
+    color: grey;
     background: #0076ff;
   }
   button {
     font-family: sans-serif;
   }
   #button {
-    background-color: blueviolet;
+    background-color: red;
     color: rgb(177, 152, 152);
     border-radius: 25px;
     width: 100px;
@@ -53,10 +53,10 @@ form-container {
   textarea {
     width: 300px;
     padding: 10px;
-    background-color; white;
+    background-color: white;
     outline: none;
   }
   textarea::placeholder {
-    width: 3070%;
+    width: auto;
     height: 100vh;
   }

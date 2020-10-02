@@ -203,7 +203,8 @@ hr {
   color: black;
 }
 body {
-  background-color: white ;
+  background-color: white;
+  padding: none;
 
 }
 .eventbookimg {
